@@ -19,7 +19,7 @@ function currentLine(currentLine)
 {
   var output = "";
   
-  if(currentLine.length == 0)
+  if(currentLine.length === 0)
   {
     output += "The line is currently empty."
     return output;
