@@ -13,6 +13,10 @@ function nowServing(currentLine)
     return ("Currently serving "+ currentLine.shift() + ".");
   else
     return ("There is nobody waiting to be served!");
-  
+}
+
+function currentLine(currentLine)
+{
+  var output = "";
   
 }
