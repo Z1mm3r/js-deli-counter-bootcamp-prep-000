@@ -17,14 +17,14 @@ function nowServing(currentLine)
 
 function currentLine(currentLine)
 {
-  var output = "The line is currently";
+  var output = "";
   
   if(currentLine.length == 0)
   {
-    output += "empty."
+    output += "The line is currently empty."
     return output;
   }
   
-  
+  for(i)
   
 }
