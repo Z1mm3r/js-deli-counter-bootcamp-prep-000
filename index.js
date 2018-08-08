@@ -10,7 +10,7 @@ function nowServing(currentLine)
 {
   
   if(currentLine.length > 0)
-    return currentLine.shift();
+    return ("Currently serving "+ currentLine.shift() + ".");
   else
     return ("There is nobody waiting to be served!");
   
