@@ -19,4 +19,12 @@ function currentLine(currentLine)
 {
   var output = "The line is currently";
   
+  if(currentLine.length == 0)
+  {
+    output += "empty."
+    return output;
+  }
+  
+  
+  
 }
