@@ -25,6 +25,9 @@ function currentLine(currentLine)
     return output;
   }
   
-  for(i)
+  for(let i = 0; i > currentLine.length; i++)
+  {
+    
+  }
   
 }
