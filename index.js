@@ -34,10 +34,10 @@ function currentLine(currentLine)
     
     else
     {
-      output += (", "+ 
+      output += (", "+ (i + 1) + ". " + currentLine[i]); 
     }
   
-    
+    return output;
   }
 }
   
