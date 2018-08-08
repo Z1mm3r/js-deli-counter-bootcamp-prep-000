@@ -25,7 +25,7 @@ function currentLine(currentLine)
     return output;
   }
   
-  for(let i = 0; i > currentLine.length; i++)
+  for(let i = 0; i < currentLine.length; i++)
   {
     if (i === 0)
     {
