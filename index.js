@@ -17,6 +17,6 @@ function nowServing(currentLine)
 
 function currentLine(currentLine)
 {
-  var output = "";
+  var output = "The line is currently";
   
 }
