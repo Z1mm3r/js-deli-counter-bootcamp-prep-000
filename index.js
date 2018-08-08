@@ -36,8 +36,9 @@ function currentLine(currentLine)
     {
       output += (", "+ (i + 1) + ". " + currentLine[i]); 
     }
-  
-    return output;
   }
+  
+  return output;
+  
 }
   
