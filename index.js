@@ -27,17 +27,17 @@ function currentLine(currentLine)
   
   for(let i = 0; i > currentLine.length; i++)
   {
-    if (i = 0)
+    if (i == 0)
     {
-      output = "The line is currently: 1." +currentLine[i];
+      output = "The line is currently: 1. " +currentLine[i];
     }
     
     else
     {
-      
+      output += (", "+ 
     }
   
     
   }
-  
 }
+  
